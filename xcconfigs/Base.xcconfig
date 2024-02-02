@@ -7,5 +7,7 @@ DD_CR_SDK_PRODUCT_NAME=DatadogCrashReporting
 
 ARCHS[sdk=iphoneos*]=$(ARCHS_STANDARD) arm64e
 
+IPHONEOS_DEPLOYMENT_TARGET=12.0
+
 // Include internal base config (git-ignored, so excluded from Carthage build)
 #include? "Base.local.xcconfig"
